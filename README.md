@@ -10,6 +10,7 @@ git commands used ----->
 git init
 git branch -M main
 git add . 
+git commit -m "message"
 git push origin main
 
 .
@@ -46,6 +47,10 @@ npm install react-dom (npm i react-dom)
 
 npx parcel build index.html (to start production build)
 
+after change in package.json scripts now 
+npm run start (npm start)
+npm run build
+
 
 
 .
@@ -56,6 +61,9 @@ npx parcel build index.html (to start production build)
 
 
 important notes ----->
+
+episode 2 ---
+
 package.json is configuration for npm.
 parcel is a bundler -  
         - dev built
@@ -86,3 +94,10 @@ browserslist - we have to add this in package.json (we use this to tell browser 
 
 
 
+episode 3 ----
+
+npm script (in package.json)
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+  }
