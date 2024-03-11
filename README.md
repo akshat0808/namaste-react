@@ -1,4 +1,4 @@
-Namste React
+Namaste React
 .
 .
 .
