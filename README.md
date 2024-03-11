@@ -11,7 +11,20 @@ git init
 git branch -M main
 git add . 
 git commit -m "message"
+git remote add origin <repository_url>
 git push origin main
+
+
+
+
+git push daily work ----->
+git add .
+git commit -m "message"
+git push
+
+
+
+
 
 .
 .
